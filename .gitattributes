@@ -32,6 +32,10 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# GCC Machine Description source file
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+*.md linguist-language=GCC-Machine-Description
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -58,9 +62,6 @@
 *.yaml linguist-language=YAML
 # Markdown
 # Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
-*.md linguist-detectable=false
-*.md linguist-documentation=false
-*.md linguist-language=Markdown
 *.mkd linguist-detectable=false
 *.mkd linguist-documentation=false
 *.mkd linguist-language=Markdown
@@ -164,7 +165,7 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2022, Wednesday, September 28th at 5:46 pm PST)
+# Line count (including blank lines and compiler line): 172
 # End of script
